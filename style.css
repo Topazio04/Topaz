@@ -1,0 +1,130 @@
+p {
+    font-size: 1.8rem;
+    text-align: justify;
+    text-align-last: center;
+    margin-bottom: 0rem!important;
+    color: black;
+}
+
+h1{
+    color: black!important;
+}
+
+img {
+    pointer-events: none;
+    user-select: none;
+}
+
+div {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid black;
+}
+
+.black {
+    color: black!important;
+}
+    
+.mainh {
+    border-top: 0px;
+    border-bottom: 80px;
+    padding-bottom: 40px; ;
+    border-left: 40px;
+    border-right: 40px;
+    border-color: rgb(3, 85, 0);
+    border-style: solid;
+}
+
+.fronttext {
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 100px;
+}
+
+.mainp {
+    border-top: 20px;
+    padding-top: 40px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(3, 71, 0);
+}
+
+.img-container {
+    background-image: url(image/image.png);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.img-profissional {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid rgb(255, 255, 255);
+    overflow: hidden;
+    padding: revert-layer;
+    margin-bottom: 20px;
+    justify-self: center;
+
+    img {
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+    }
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay-text {
+    padding: 10px;
+    padding-right: 60px;
+    font-size: 5.8rem;
+    font-weight: bold;
+    color: rgb(3, 85, 0)!important;
+
+}
+
+.overlay-image {
+    width: 30rem;
+    height: auto;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-evenly;
+    size: 40px;
+}
+
+.bsize {
+    height: 100px;
+    width: 240px;
+    font-size: 2rem !important;
+
+}
+
+.bsize2 {
+    height: 80px;
+    width: 200px;
+    font-size: 1.7rem !important;
+
+}
