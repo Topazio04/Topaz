@@ -6,6 +6,15 @@ p {
     color: black;
 }
 
+.a {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a {
+    align-content: center;
+}
+
 h1{
     color: black!important;
 }
@@ -144,7 +153,26 @@ label {
 .overlay-text {
     padding: 10px;
     padding-right: 60px;
-    font-size: 5.8rem;
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(3, 85, 0)!important;
+
+}
+
+.high-text {
+    padding: 10px;
+    padding-right: 60px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(3, 85, 0)!important;
+
+}
+
+
+.overlay-text2 {
+    padding: 10px;
+    padding-right: 60px;
+    font-size: 4rem;
     font-weight: bold;
     color: rgb(3, 85, 0)!important;
 
@@ -152,6 +180,11 @@ label {
 
 .overlay-image {
     width: 30rem;
+    height: auto;
+}
+
+.overlay-image2 {
+    width: 20rem;
     height: auto;
 }
 
